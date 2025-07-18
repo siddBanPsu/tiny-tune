@@ -57,7 +57,7 @@ uv pip install -r requirements.txt  # Faster installation with uv
 5. For notebooks using LM Studio:
    - Download and install [LM Studio](https://lmstudio.ai/)
    - Load your preferred model (e.g., Mistral)
-   - Start the local server (usually runs on port 1234)
+   - Start the local server (usually runs on port 1234). Check the port number in LM Studio's settings or logs to confirm, as it may vary depending on your configuration. If needed, update the port in your application settings to match the one used by LM Studio.
 
 ## Directory Structure
 ```
